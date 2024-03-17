@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Setting</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/style2.css">
+</head>
+
+<body>
+    
+    <nav class="container-fluid p-3 bg-body-secondary " style="background-color: rgb(253, 254, 255); padding-bottom: 8px; padding-right: 8px; ">
+        <a href="../Store/Home.html"><img style="margin-bottom: -50px;width: 200px;" src="./Images/Main logo.png"> </a> 
+
+        <p class="text-end" style="margin-top: -20px; margin-left: 1387px;"><a href="../Help/help main.html">Magice Help</a></p>
+        <div class="">
+        <img src="./Images/userImage.jpg" class=""  width="25px" height="25.47px" radius="50px" style=" float: inline-end; margin-top: -5px; ">
+       <p class="text-md-end" style="margin-left: 1340px; margin-top: 20px;">Hi, Anne Peterson</p> </div>
+        
+      
+      </div>
+  </nav>
+    <div class="container">
+        <nav>
+            <ul>
+                <li class="navHover">
+                    <a href="./User _Dash.html" class="logo">
+                       
+                        <span class="sidenav">Dashboard</span>
+                    </a>
+                </li>
+                <li class="navHover">
+                    <a href="./User _Dash.html">
+                        <i class='bx bxs-user-circle'></i>
+                        <span class="nav-item">Manage Account</span>
+                    </a>
+                </li>
+                <li class="navHover">
+                    <a href="../Store/Cart.html"><i class='bx bxs-cart-alt' ></i>
+                            <span class="nav-item">Shopping cart</span>
+                        </a>
+                </li>
+                <li class="navHover">
+                    <a href="./OrderHistory.html">
+                        <i class='bx bxs-package'></i>
+                        <span class="nav-item">Order History</span>
+                    </a>
+                </li>
+                <li class="navHover">
+                    <a href="./Wishlist.html">
+                        <i class='bx bx-purchase-tag'></i>
+                        <span class="nav-item">My wishlist</span>
+                    </a>
+                </li>
+                <li class="navHover">
+                    <a href="#">
+                        <i class='bx bxs-cog'></i>
+                        <span class="nav-item">Settings</span>
+                    </a>
+                </li>
+                <li class="navHover">
+                    <a href="../Store/Home page login.html" class="logout">
+                        <i class='bx bxs-log-out'></i>
+                        <span class="nav-item">Log Out</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Main Section -->
+        <section class="setting">
+            <!-- Topic -->
+            <div class="accountset">
+                <h1>Settings</h1>
+            </div>
+            <!-- Cotains -->
+            <div class="settings">
+                <!-- Account Settings -->
+                <div class="card">
+                    <div class="topic">
+                        <h3>Account Setting</h3>
+                    </div>
+                    <hr>
+                    <!-- Change Images -->
+                    <div id="profile-card">
+                        <img id="profile-image" src="images/pro.png" alt="Profile Image">
+
+                        <label for="image-input" id="change-image-btn">Change Image</label>
+                        <input type="file" id="image-input" accept="image/*">
+
+                        <button id="upload-btn" onclick="uploadImage()">Upload Image</button>
+                    </div>
+                    <div class="from1">
+                        <form action="/update-account" method="post">
+                            <div class="fromiem">
+                                <label for="name">First Name</label>
+                                <input type="text" id="fname" name="First name" placeholder="Anne" required>
+                            </div>
+
+                            <div class="fromiem">
+                                <label for="name"> Last Name</label>
+                                <input type="text" id="lname" name="Last name" placeholder="Perera" required>
+                            </div>
+
+                            <div class="fromiem">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" placeholder="AnneP23@gmail.com">
+                            </div>
+                            <div class="fromiem">
+                                <label for="password">Contact Number</label>
+                                <input type="text" id="Pno" name="Phone" placeholder="+9477988076">
+                            </div>
+                            <div class="fromiem">
+                                <input type="submit" value="Save Changes">
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+                <!-- Address -->
+                <div class="card">
+                    <div class="topic">
+                        <h3>Address </h3>
+                    </div>
+                    <hr>
+                    <div class="from1">
+                        <form action="/update-address" method="post">
+                            <div class="fromiem">
+                                <label for="name">Address</label>
+                                <input style="height: 100px; text-align: left;" type="text" id="fname" name="First name" placeholder="No,96 Mal Mawatha,Mount Lavinia." required>
+                            </div>
+                            <div class="fromiem">
+                                <input type="submit" value="Save Changes">
+                            </div>
+                        </form>
+                    </div>
+
+
+                </div>
+
+  <!-- shipping Address -->
+  <div class="card">
+    <div class="topic">
+        <h3>Shipping Address </h3>
+    </div>
+    <hr>
+    <div class="from1">
+        <form action="/update-address" method="post">
+            <div class="fromiem">
+                <label for="name">Province</label>
+                <select  class="form-select" aria-label="Default select example">
+                    <option selected>Sabaragamuwa</option>
+                    <option value="1">Western </option>
+                    <option value="2">North Central</option>
+                    <option value="3">Central</option>
+                    <option value="4">South</option>
+                   
+                  </select>       <label for="name">City</label>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Rathnapura</option>
+                    <option value="1">Embilipitiya </option>
+                    <option value="2">Kegalle</option>
+                 
+                   
+                  </select>   <label for="name">Area</label>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Kalawana</option>
+                    <option value="1">Nivithigala </option>
+                    <option value="2">Rakwana</option>
+                 
+                   
+                  </select>
+                  <label for="exampleFormControlInput1" class="form-label">Address</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Address">
+                 
+          
+            </div>
+            <div class="fromiem">
+                <input type="submit" value="Save Changes">
+            </div>
+        </form>
+    </div>
+
+
+</div>
+
+
+
+                <!-- Card details -->
+                <div class="card">
+                    <div class="topic">
+                        <h3>Change Password</h3>
+                    </div>
+                    <hr>
+                    <div class="from1">
+                        <form action="/update-address" method="post">
+                            <div class="fromiem">
+                                <label for="name">Current Password</label>
+                                <input type="password" id="password" name="password" placeholder="Password" required>
+                            </div>
+                            <div class="fromiem">
+                                <label for="name">New Password</label>
+                                <input type="password" id="password" name="password" placeholder="Confirm Password" required>
+                            </div>
+                            <div class="fromiem">
+                                <input type="submit" value="Save Changes">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="topic">
+                        <h3>Add Payment Details</h3>
+                    </div>
+                    <hr>
+                    <div class="from1">
+                        <form action="/update-address" method="post">
+                            <div class="fromiem">
+                                <label for="name">Card Number</label>
+                                <input type="text" id="cardNumber" name="cardNumber" placeholder="Card Number" required>
+                            </div>
+                            <div class="fromiem">
+                                <label for="name">Expire Date</label>
+                                <input type="text" id="expireDate" name="expireDate" placeholder="Expire Date" required>
+                            </div>
+                            <div class="fromiem">
+                                <label for="name">Name on Card</label>
+                                <input type="text" id="nameonCard" name="nameonCard" placeholder="Name on Card" required>
+                            </div>
+                            <div class="fromiem">
+                                <label for="name">CVV</label>
+                                <input type="text" id="cvv" name="cvv" placeholder="CVV" required>
+                            </div>
+                            <div class="fromiem">
+                                <input type="submit" value="Save ">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </div>
+
+
+    <div class="copyright-area">
+        <div class="" style="margin-bottom: 20px;">
+            <div class="row">
+                <div class="col-md-8">
+                    <p class="" style="color: rgb(175, 177, 179);float: inline-start; padding-left: 20px;">  Magice Store eCommerce (LK) &copy; 2024 - All Rights Reserved </p>
+                    
+
+                </div>
+                <div class="col-md-4" >
+                    <img style="float: right; padding-right: 20px;" src="./Images/MicrosoftTeams-image.png" width="100px" height="30px"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Js -->
+    <script>
+        document.getElementById('change-image-btn').addEventListener('click', function() {
+            document.getElementById('image-input').click();
+        });
+
+        document.getElementById('image-input').addEventListener('change', function() {
+            document.getElementById('upload-btn').style.display = 'block';
+        });
+
+        function uploadImage() {
+            // Add code here to handle image upload using AJAX or form submission
+            // Send the selected image to the server for processing
+            // Update the profile image on success
+            alert('Image uploaded successfully!');
+        }
+    </script>
+</body>
+
+</html>

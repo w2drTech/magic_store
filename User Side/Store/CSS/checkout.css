@@ -1,0 +1,185 @@
+@import url('https //fonts.googleapis.com/css family=poppins');
+
+*{
+  font-family: 'Poppins';
+  font-size: small;
+}
+
+
+
+body{
+  background-color:white;
+}
+/*h1{
+  width: 806px;
+  height:135px;
+  border: 1px solid black;
+}
+h2{
+  width: 806px;
+  height:113px;
+  border:1px solid black;
+}*/
+ .bgcc{
+  background-color: rgb(248, 248, 248);
+  height: 130px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.order{
+  background-color: rgb(248, 248, 248);
+  height: 220px;
+}
+
+
+
+
+.txtccbtn{
+  color: #0b6970;
+ margin-top: -90px;
+ float: inline-end;
+ background: none;
+
+}
+.txtccbtn:hover{
+  font-size: 14px;
+}
+.changesbtn{
+  color: #0b6970;
+  margin-top: -53px;
+  float: inline-end;
+  background: none;
+}
+.changesbtn:hover{
+ 
+ font-size: 14px;
+}
+
+
+
+.summary{
+  float: inline-end;
+  color: rgb(0, 0, 0);
+  margin-top:-160px;
+}
+.fee{
+  margin-top: 30px;
+}
+
+.vat{
+  float: inline-end;
+}
+.dfee{
+  float: inline-end;
+  
+  color: rgb(23, 23, 24);
+}
+.btn{
+  margin-left: 110px ;
+} 
+
+
+.ttttt{
+  
+  margin-top:-160px;
+  margin-left: 200px;
+  font-size: large;
+}
+.brand{
+  font-size:small;
+}
+.us{
+  font-size:large ;
+}
+.rrrrr{
+  margin-left: 40px;
+}
+.neg{
+  margin-left: 600px;
+  margin-top: -20px;
+  
+}
+.mmmmm{
+  margin-top: 10px;
+}
+.remo{
+  margin-left: 800px;
+  margin-top:-20px;
+}
+.hhhh{
+  margin-top: 10px;
+}
+/* .dropdown{
+  margin-top: -500px;
+  margin-left: 1400px;
+} */
+.placeBtn1 {
+	color: aliceblue; 
+	background-color: #0b6970; 
+	border-color: #0b6970; 
+	border-radius: 20px;
+	padding-left: 17px;
+	padding-right: 17px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-width: 1px;
+	margin-right: 20px;
+  margin-left: 95px;
+ 
+  }
+
+a:hover{
+cursor: pointer;
+}
+
+
+  
+/* adresss change */
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+  display: none;
+  position: fixed;
+  top: 110px;
+  left: 335px;
+  border: 1px solid #0aa8a8;
+  
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+  width: 600px;
+  height: 500px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom:0px;
+  padding-top: 20px;
+  background-color: white;
+  height: 480px;
+  }
+  
+ 
+  
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+  }
+
+
+

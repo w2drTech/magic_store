@@ -1,0 +1,305 @@
+@import url('https //fonts.googleapis.com/css family=poppins');
+
+*{
+  font-family: 'Poppins';
+
+  font-size: small;
+}
+
+
+/* Rate 0 */
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+
+.rate:not(:checked)>input {
+    position: absolute;
+    top: -9999px;
+}
+
+.rate:not(:checked)>label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 30px;
+    color: #ccc;
+}
+
+.rate:not(:checked)>label:before {
+    content: '★ ';
+}
+
+.rate>input:checked~label {
+    color: #0b6970;
+}
+
+.rate:not(:checked)>label:hover,
+.rate:not(:checked)>label:hover~label {
+    color: #0b6970;
+}
+
+.rate>input:checked+label:hover,
+.rate>input:checked+label:hover~label,
+.rate>input:checked~label:hover,
+.rate>input:checked~label:hover~label,
+.rate>label:hover~input:checked~label {
+    color: #0b6970
+}
+
+
+/* rate 1 */
+
+.rate1 {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+
+.rate1:not(:checked)>.star1-1 {
+    position: absolute;
+    top: -9999px;
+}
+
+.rate1:not(:checked)>.labelStar1 {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 30px;
+    color: #ccc;
+}
+
+.rate1:not(:checked)>.labelStar1:before {
+    content: '★ ';
+}
+
+.rate1>.star1-1:checked~.labelStar1 {
+    color: #0b6970;
+}
+
+.rate1:not(:checked)>.labelStar1:hover,
+.rate1:not(:checked)>.labelStar1:hover~.labelStar1 {
+    color: #0b6970;
+}
+
+.rate1>.star1-1:checked+.labelStar1:hover,
+.rate1>.star1-1:checked+.labelStar1:hover~.labelStar1,
+.rate1>.star1-1:checked~.labelStar1:hover,
+.rate1>.star1-1:checked~.labelStar1:hover~.labelStar1,
+.rate1>.labelStar1:hover~.star1-1:checked~.labelStar1 {
+    color: #0b6970
+}
+
+
+/* Raate 2 */
+
+.rate2 {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+
+.rate2:not(:checked)>input {
+    position: absolute;
+    top: -9999px;
+}
+
+.rate2:not(:checked)>label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 30px;
+    color: #ccc;
+}
+
+.rate2:not(:checked)>label:before {
+    content: '★ ';
+}
+
+.rate2>input:checked~label {
+    color: #0b6970;
+}
+
+.rate2:not(:checked)>label:hover,
+.rate2:not(:checked)>label:hover~label {
+    color: #0b6970;
+}
+
+.rate2>input:checked+label:hover,
+.rate2>input:checked+label:hover~label,
+.rate2>input:checked~label:hover,
+.rate2>input:checked~label:hover~label,
+.rate2>label:hover~input:checked~label {
+    color: #0b6970
+}
+
+
+/* Rating Stars New */
+
+
+/* rate */
+
+.rate .stars {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.stars i {
+    color: #e6e6e6;
+    font-size: 35px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.stars i.active {
+    color: #0b6970;
+}
+
+
+/* rate 1 */
+
+.rate1 .rates {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.rates i {
+    color: #e6e6e6;
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.rates i.active {
+    color: #0b6970;
+}
+
+
+/* rate2 */
+
+.rate2 .ratings {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.ratings i {
+    color: #e6e6e6;
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.ratings i.active {
+    color: #0b6970;
+}
+
+
+
+
+.submitBtn1{
+    color: aliceblue; 
+    background-color: #0b6970; 
+    border-color: #0b6970; 
+    border-radius: 20px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-width: 1px;
+    margin-right: 20px;
+  }
+  .cancelBtn1{
+    color: #0b6970; 
+    background-color: #ffffff; 
+    border-color: #5f6161; 
+    border-radius: 20px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-width: 1px;
+  }
+
+
+
+
+
+
+
+
+
+/* drag and drop images ------- */
+
+.uploadOuter {
+    margin-top: -45px;
+   
+    padding: 20px;
+    strong {
+      padding: 0 10px
+    }
+  }
+  .dragBox {
+    width: 250px;
+    height: 80px;
+    
+ margin-left: 20px;
+    margin-top: 10px;
+    /* margin: 0 auto; */
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    line-height: 95px;
+    color: #999;
+    border: 2px dashed #ccc;
+    display: inline-block;
+    transition: transform 0.3s;
+    input[type="file"] {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      top: 0;
+      left: 0;
+    }
+  }
+  .draging {
+    transform: scale(1.1);
+  }
+  #preview {
+    text-align: center;
+    img {
+      max-width: 100%
+    }
+  }
+  
+  
+  /* drag and drop images ^^^^^^ */
+
+
+  .btn2{
+    color: aliceblue; 
+    background-color: #0b6970; 
+    border-color: #0b6970; 
+    border-radius: 20px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-width: 1px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+
+

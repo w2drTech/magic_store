@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: "poppins", sans-serif;
+    
+}
+
+body {
+    background-color: rgb(226, 220, 226);
+}
+
+
+/* Wish List */
+
+.wish {
+    position: relative;
+    padding: 20px;
+    width: 100%;
+}
+
+.wishtop {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.wishlist {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.wishlist .card {
+    width:70%;
+    background: #fff;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.wishlist .card .wtop h3 {
+    margin: 10px;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: flex;
+}
+
+.wishlist .card .wtop hr {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+}
+
+.wishT {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.wishT td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.wishT th {
+    padding: 10px;
+    text-align: left;
+}
+
+.wishT th:last-child,
+td:last-child {
+    border-bottom: 1px;
+}
+
+.wishT img {
+    width: 50px;
+    height: 50px;
+}
+
+.wishT .abtn {
+    background: #0b6970;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+
+

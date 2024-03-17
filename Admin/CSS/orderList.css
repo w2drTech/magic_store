@@ -1,0 +1,62 @@
+@import url('https //fonts.googleapis.com/css family=poppins');
+
+*{
+  font-family: 'Poppins';
+  font-size: small;
+}
+
+.searchby{
+    margin-bottom: 30px; 
+    margin-top: 55px;
+   
+}
+
+.selectBulk{
+    width: 170px;
+    margin-top: 59px;
+}
+.searchbyelect{
+   margin-top: 28px;
+}
+
+.searchboxin{
+   Width:200px; 
+}
+.searchcolumn{
+   width: 410px;
+   margin-top: 128px;
+}
+.filtercolumn{
+   width: 170px;
+   margin-top: 35px;
+}
+
+.filterbox{
+   height: 34px; 
+}
+.addcustomerbtn{
+   float: inline-end;
+   margin-top: 75px;
+   width: 130px;
+   font-size: 13px;
+   
+  
+}
+
+.bn{
+   margin-left:10px ;
+   padding-top:30px ;
+}
+.printShare{
+   text-decoration: none;
+   font-size: 20px;
+   margin-top: 62px;
+   
+
+}
+.printbtn{
+   margin-right: 20px;
+}
+img{
+   padding: 5px;
+}

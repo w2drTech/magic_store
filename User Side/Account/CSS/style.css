@@ -1,0 +1,349 @@
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&display=swap');
+            * {
+                font-family: 'Poppins', sans-serif;
+                font-size: small;
+                margin: 0;
+                padding: 0%;
+                box-sizing: border-box;
+                list-style: none;
+                text-decoration: none;
+                scroll-padding-top: 2rem;
+                scroll-behavior: smooth;
+            }
+            
+            header {
+                position: relative;
+                width: 100%;
+                margin-top: 20px;
+                right: 0;
+                z-index: 1000;
+                display: flex;
+                box-shadow: 0 8px 11px rgb(14 55 54 / 15%);
+            }
+            /* nav */
+            
+            .hero {
+                width: 100%;
+                min-height: 200vh;
+                background: #eceaff;
+                color: #525252;
+            }
+            
+            nav {
+                background: #ffffff;
+                width: 100%;
+                padding: 10px 10%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                position: relative;
+            }
+            
+            .logo {
+                width: 120px;
+            }
+            
+            .user {
+                width: 100px;
+                cursor: pointer;
+                margin-left: 30px;
+                display: flex;
+                align-items: center;
+                width: 40px;
+                height: 40px;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 50%;
+            }
+            
+            nav ul {
+                width: 100%;
+                text-align: right;
+            }
+            
+            nav ul li {
+                display: inline-block;
+                list-style: none;
+                margin: 10px 20px;
+                padding: 5px;
+            }
+            
+            nav ul li a {
+                color: #000000;
+                text-decoration: none;
+                font-size: 1em;
+                font-weight: 500;
+                padding: 0.5rem 5px;
+            }
+            
+            nav ul li a:hover,
+            nav ul li .home-active {
+                background-color: #0b6970;
+                border-radius: 10rem;
+                color: white;
+                transition: background 0.5s;
+            }
+            
+            .signin-container {
+                background-color: #e7e0e0;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px #ec05051a;
+                margin-top: 30px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 20px;
+                gap: 25px;
+                position: absolute;
+                width: 340px;
+                height: 371px;
+                left: 520px;
+            }
+            
+            .signin-container h2 {
+                margin-bottom: 20px;
+                font-weight: 600;
+            }
+            
+            .form-group {
+                margin-bottom: 20px;
+            }
+            
+            .form-group input {
+                width: 100%;
+                padding: 14px 16px;
+                box-sizing: border-box;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                font-weight: 400;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 16px;
+                width: 300px;
+                height: 20px;
+            }
+            
+            .form-group .bxs-low-vision {
+                position: absolute;
+                right: 35px;
+                font-size: 1.2em;
+                color: #162938;
+                line-height: 33px;
+            }
+            /* Remeber-foget */
+            
+            .remeber-forgot {
+                font: size 0.9em;
+                color: #162938;
+                font-weight: 500;
+                margin: -5px 0 25px;
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .remeber-forgot label input {
+                accent-color: #162938;
+                margin-left: 3px;
+            }
+            
+            .remeber-forgot label input a {
+                color: #162938;
+                text-decoration: none;
+            }
+            
+            .form-group button {
+                background-color: #0b6970;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                cursor: pointer;
+                border-radius: 50px;
+                width: 100%;
+                height: 45px;
+                border: none;
+                outline: none;
+                font-size: 1em;
+                font-weight: 500;
+            }
+            /* Login buttton-Need to change */
+            
+            .form-group button a {
+                font-weight: 500;
+                font-size: 1em;
+                color: #fff;
+            }
+            
+            .form-group button:hover {
+                background-color: #0b6970;
+            }
+            
+            .login-register {
+                font-size: .9em;
+                color: #162938;
+                text-align: center;
+                font-weight: 500;
+                margin: 25px 0 10px;
+            }
+            
+            .login-register p a {
+                color: #162938;
+                text-decoration: none;
+                font-weight: 600;
+            }
+            
+            .login-register p a:hover {
+                text-decoration: underline;
+            }
+            /* validate */
+            
+            .error #emailError,
+            .error #passwordError {
+                color: red;
+            }
+            
+            .error input {
+                border: 2px solid red;
+            }
+            
+            .msg {
+                display: none;
+            }
+            /* signup */
+            
+            .signup-container {
+                background-color: #eff1e0;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px #1211111a;
+                text-align: center;
+                margin-top: 30px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 24px 24px 32px;
+                gap: 20px;
+                position: absolute;
+                width: 400px;
+                height: 600px;
+                left: 520px;
+            }
+            
+            .signup-container h2 {
+                margin-bottom: 20px;
+                font-weight: 600;
+            }
+            /* image containeer */
+            
+            .images {
+                max-width: 968px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+            
+            .imagegrid-container {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+                gap: 1.5rem;
+                margin-top: 2rem;
+            }
+            
+            .imagegrid-container .imageitems {
+                padding: 20px;
+                box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%);
+                border-radius: 0.5rem;
+                position: relative;
+            }
+            
+            .imagegrid-container .imageitems img {
+                width: 100%;
+                height: 200px;
+                object-fit: contain;
+                object-position: center;
+                display: grid;
+            }
+            /* Dash_Drop */
+            
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: 'poppins', sans-serif;
+                box-sizing: border-box;
+            }
+            /* Sub Menu */
+            
+            .sub-menu-wrap {
+                position: absolute;
+                top: 100%;
+                right: 10%;
+                width: 320px;
+                max-height: 0px;
+                overflow: hidden;
+                transition: max-height 0.5s;
+            }
+            
+            .sub-menu-wrap.open-menu {
+                max-height: 400px;
+            }
+            
+            .sub-menu {
+                background: #ffffff;
+                padding: 20px;
+                margin: 10px;
+                border-radius: 20px;
+            }
+            
+            .user-info {
+                display: flex;
+                align-items: center;
+            }
+            
+            .user-info h3 {
+                font-weight: 600;
+            }
+            
+            .user-info img {
+                width: 60px;
+                border-radius: 50%;
+                margin-right: 15px;
+            }
+            
+            .sub-menu hr {
+                border: 0;
+                height: 1px;
+                width: 100%;
+                background: #ccc;
+            }
+            
+            .sub-link {
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                color: #525252;
+                margin: 12px 0;
+            }
+            
+            .sub-link p {
+                width: 100%;
+            }
+            
+            .sub-link i {
+                width: 40px;
+                background: #e5e5e5;
+                border-radius: 50%;
+                padding: 8px;
+                margin-right: 15px;
+            }
+            
+            .sub-link span {
+                font-size: 18px;
+                transition: transform 0.5s;
+            }
+            
+            .sub-link:hover span {
+                transform: translateX(5px);
+            }
+            
+            .sub-link:hover p {
+                font-weight: 600;
+            }

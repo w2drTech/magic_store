@@ -1,0 +1,255 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: small;
+ 
+}
+
+
+
+.text-justify{
+  display: flex;
+text-align: justify;
+  padding: 10px;
+}
+
+
+/*  wishlist */
+.wishlist  {
+  font-size: 20px;
+  cursor: pointer;
+  user-select: none;
+  color: #0b6970;
+  float: inline-end;
+  margin-right: 5px;
+  margin-top: -37px;
+}
+
+.wishlist:hover {
+  color: rgb(214, 7, 7);
+}
+/*wishlist*/
+
+.starlocate{
+  float: inline-end;
+  margin-top: -35px;
+  padding-right: 7px;
+}
+.priceLocate{
+  margin-top: -5px;
+  padding-left: 10px;
+}
+.viewLocate{
+  margin-top: -5px;
+}
+.nameLocate{
+  margin-top: -5px;
+}
+section{
+  padding: 5px;
+}
+.bg-transparent:focus:hover{
+background-color: aquamarine;
+
+}
+ .gotobuyalign{
+  padding-left: 10px;
+} 
+.gotobuyalign :hover{
+color: #0b6970;
+
+
+
+}
+.gotobuycolor{
+  text-decoration: none;
+  color: black;
+  
+}
+
+.wishbutn{
+  margin-top: -310px;
+  margin-left: 285px;
+  height: 20px;
+  width: 20px;
+  z-index: inherit;
+
+
+}
+.wiishhov:hover{
+  color: blue;
+ 
+}
+
+
+
+.cirle{
+  color: aliceblue;
+  margin-top: -360px;
+  width: 30px;
+  height: 30px;
+margin-left: 280px;
+
+}
+
+.heartoutline {
+  background: url("https://cdn.shopify.com/s/files/1/1702/7393/files/heartoutline.png?v=1611615140");
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+}
+.heartfull {
+  background: url("https://cdn.shopify.com/s/files/1/1702/7393/files/heartfull.png?v=1611615166");
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+}
+.form-select{
+  float: inline-end; margin-top: 20px; padding-right: 17px; padding-left: 8px; width: 180px; box-shadow: none;
+  outline-color: #0b6970;box-shadow: none;
+  margin-left: 3px;
+  margin-right: 3px;
+  height: 30px;
+}
+
+
+
+
+
+
+
+
+
+/* checkk box */
+.wrapper {
+  height: 50px;
+  width: 200px;
+ padding-left: 125px;
+ padding-top: 60px;
+  transform: translate(-50%, -50%);
+
+  
+
+  
+  
+}
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  height: 1.5em;
+  width: 1.5em;
+  border: 1px;
+  text-align: center;
+  border-radius: 0.5em;
+  cursor: pointer;
+  position: absolute;
+ 
+  outline: none;
+ 
+  background-color: #889091;
+}
+label {
+  color: #4c4c4c;
+  font-size:1em;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer; margin-left: 35px;
+}
+input[type="checkbox"]:after {
+  font-family: "Font Awesome 6 Free";
+  content: "\f00c";
+  font-weight: 900;
+  font-size: 1em;
+  color: #ffffff;
+  display: none;
+}
+input[type="checkbox"]:hover {
+  background-color: #0b6970;
+  
+}
+input[type="checkbox"]:checked {
+  background-color: #0b6970;
+}
+input[type="checkbox"]:checked:after {
+  display: block;
+}
+
+
+
+
+
+/* currency country change */
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+background-color: #555;
+color: white;
+padding: 16px 20px;
+border: none;
+cursor: pointer;
+opacity: 0.8;
+position: fixed;
+bottom: 23px;
+right: 28px;
+width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+display: none;
+position: fixed;
+top: 120px;
+right: 35px;
+border: 1px solid #07777a;
+
+}
+
+/* Add styles to the form container */
+.form-container {
+width: 300px;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 20px;
+padding-top: 20px;
+background-color: white;
+height: 170px;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+border: none;
+background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+background-color: #ddd;
+outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+background-color: #04AA6D;
+color: white;
+padding: 16px 20px;
+border: none;
+cursor: pointer;
+width: 100%;
+margin-bottom:10px;
+opacity: 0.8;
+}
+
+
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+opacity: 1;
+}

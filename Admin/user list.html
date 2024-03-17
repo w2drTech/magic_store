@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>User List</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+
+<!-- admin navvbar -->
+   <!-- Boxicons CSS        -->
+   <link flex href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+   <script src="./Script/navScript.js" defer></script>
+   <link rel="stylesheet" href="./CSS/adminNav.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+<link rel="stylesheet" href="./CSS/userList.css">
+
+</head> 
+<body>
+
+   <!-- side bar -->
+   <nav class="sidebar locked">
+    <div class="logo_items flex">
+      <span class="nav_image">
+      </span>
+      <span class="logo_name">Magice Store</span>
+      <i class="bx bx-lock-alt" id="lock-icon" title="Unlock Sidebar"></i>
+      <i class="bx bx-x" id="sidebar-close"></i>
+    </div>
+
+    <div class="menu_container">
+      <div class="menu_items">
+        <li class="item" style="margin-left: 0px;">
+          <a href="./charts.html" class="link flex">
+            <i class="bx bx-home-alt"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <ul class="menu_item">
+          <div class="menu_title flex">
+            <span class="title">Product</span>
+            <span class="line"></span>
+          </div>
+          <li class="item">
+            <a href="./admin add product.html" class="link flex">
+              <i class="fa-solid fa-shirt"></i>
+              <span>Add Product</span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="./admin product list.html" class="link flex">
+              <i class="fa-solid fa-list"></i>
+              <span>View Product List</span>
+            </a>
+          </li>
+        </ul>
+
+<ul class="menu_item">
+          <div class="menu_title flex">
+            <span class="title">People</span>
+            <span class="line"></span>
+          </div>
+          <li class="item">
+            <a href="./add user.html" class="link flex">
+              <i class="fa-solid fa-user"></i>
+              <span>Add User</span>
+            </a>
+          </li>
+          <li class="item">
+
+            <!-- probblrmmmmmm --> <!-- probblrmmmmmm --> <!-- probblrmmmmmm -->
+            <a href="./customer.html" class="link flex">
+              <i class="fa-solid fa-list-ul"></i>
+              <span>View customer List</span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="./user list.html" class="link flex">
+              <i class="fa-solid fa-list-ul"></i>
+              <span>View Users List</span>
+            </a>
+          </li>
+        </ul>
+
+
+        <ul class="menu_item">
+          <div class="menu_title flex">
+            <span class="title">Order</span>
+            <span class="line"></span>
+          </div>
+          <li class="item">
+            <a href="./order list.html" class="link flex">
+              <i class="fa-solid fa-list-ul"></i>
+              <span>View Orders List</span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="./admin - related prdt to order.html" class="link flex">
+              <i class="fa-solid fa-truck"></i>
+              <span>Set Delivery Status</span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="./admin - related prdt to order cancel.html" class="link flex">
+              <i class="fa-solid fa-rectangle-xmark"></i>
+              <span>Cancel/Refund</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="menu_item">
+          <div class="menu_title flex">
+            <span class="title"></span>
+            <span class="line"></span>
+          </div>
+          <li class="item">
+            <a href="./manage cus feed.html" class="link flex">
+              <i class="fa-solid fa-star"></i>
+              <span>Review of Customer</span>
+            </a>
+          </li>
+           <!-- probblrmmmmmm --> <!-- probblrmmmmmm --> <!-- probblrmmmmmm -->
+          <li class="item">
+            <a href="./inventry.html" class="link flex">
+              <i class="fa-regular fa-rectangle-list"></i>
+              <span>Inventry Report</span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="./income.html" class="link flex">
+              <i class="fa-solid fa-hand-holding-dollar"></i>
+              <span>Income</span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="./create product discount.html" class="link flex">
+              <i class="fa-solid fa-ticket"></i>
+              <span>Add Discount</span>
+            </a>
+          </li>
+      
+
+        </ul>
+        <ul class="menu_item">
+          <div class="menu_title flex">
+            <span class="title"></span>
+            <span class="line"></span>
+          </div>
+          <li class="item">
+            <a href="./Admin Account setting.html" class="link flex">
+              <i class="bx bx-cog"></i>
+              <span>Setting</span>
+            </a> 
+          </li>
+
+        </ul>
+
+
+      </div>
+      <div class="sidebar_profile flex">
+        <span class="nav_image">
+          <img src="./Images/65.jpg" alt="R">
+        </span>
+        <div class="data_text">
+          <span class="name">Linda K. Delgado</span>
+          <span class="email">Linda@gmail.com</span>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar -->
+  <nav class="navbar flex">
+    <i class="bx bx-menu" id="sidebar-open"></i>
+    <input type="text" placeholder="Search..." class="search_box" />
+  
+  
+  
+  </nav>
+
+ <div class="container-fluid p-4"> 
+   <div class="row align-items-start">
+ <div class="col-3"></div>
+
+
+    <div class="col-2 searchby">  
+      <h5>Users List</h5>
+  <p>Manage your Users</p>
+  <select class="form-select bg-light text-dark searchbyelect" aria-label="Default select example">
+    <option selected>Search By</option>
+    <option value="1">Username</option>
+    <option value="2">Phone</option>
+   
+  </select>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+  </div>
+  <div class="col-3 searchcolumn "> 
+ 
+  <form class="d-flex">
+    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-primary" type="submit">Search</button>
+  </form>
+ 
+</div>
+
+
+<div class="col-2 "> 
+  <select class="form-select bg-light text-dark selectBulk" aria-label="Default select example" >
+    <option selected>Bulk Action</option>
+    <option value="1">Delete</option>
+    <option value="2">Share</option>
+    <option value="3">Print</option>
+
+   
+  </select>
+  <select class="form-select bg-light text-dark filterbox filtercolumn" aria-label="Default select example">
+    <option selected>All</option>
+    <option value="1">Quantity below than 50</option>
+    <option value="1">Zero Quantity</option>
+   <option value="2">Men Products</option>
+   <option value="2">Women Products</option>
+
+  </select>
+  </div>
+
+
+  <div class="col-1">
+    <div class="printShare">
+      <a href="">  <i class="fa-solid fa-print printbtn"></i></a>
+      <a href="">   <i class="fa-solid fa-share-nodes"></i></a>
+      </div>
+ <button type="button" class="btn btn-primary addcustomerbtn">Add User</button> 
+
+  </div>
+     
+</div>
+
+
+
+
+  
+
+
+<div class="row align-items-start">
+  <div class="col-3"></div>
+
+  <div class="col-9">                                                                                                                                                                                                                                                                                                                                                                                     
+    <table class="table table-bordered tablelength">
+    <tr>
+    <td>&nbsp;</td>
+    <th class="text-center">Profile Name</th> 
+    <th class="text-center">UserName</th>
+    <th class="text-center">Phone</th> 
+    <th class="text-center">Email</th>
+    <th class="text-center">Status</th>
+    <th class="text-center">Action</th>
+    
+    </tr>
+    <tr>
+    <td><div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      </div></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/10.17.09LindaHamiltonByLuigiNovi.jpg/1200px-10.17.09LindaHamiltonByLuigiNovi.jpg" width="45px" height="50px"/>Linda K.Delgado</td>
+    <td class="text-center">Linda23</td>
+    <td class="text-center">+125677777788</td>
+    <td class="text-center">Linda@gmail.com</td>
+    <td class="text-center"> <i class="fa-solid fa-toggle-on"></i></td>
+    
+   
+    <td class="text-center">
+      <a href="./add user.html" > <i class="fa-regular fa-pen-to-square" style="padding-right: 7px;"></i></a>  
+
+      <i class="fa-regular fa-circle-xmark" ></i>
+    </td>
+    </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          </div></td>
+    <td><img src="https://th.bing.com/th/id/R.017aaab086a22dbf5cd8afe71e56ea42?rik=crDFO1eeIP9DFw&riu=http%3a%2f%2flist.lisimg.com%2fimage%2f8567816%2f740.jpg&ehk=lTyGN8Xt6TqCYgror3Dq5MGx6EBAghDNjliYTkiUKis%3d&risl=&pid=ImgRaw&r=0" width="45px" height="50px"/>Georage C.Cary</td>  
+    <td class="text-center">George86</td>
+   <td class="text-center">+125676677788</td> 
+    <td class="text-center">George@mail.com</td>
+    
+    <td class="text-center"> <i class="fa-solid fa-toggle-on"></i></td>
+    <td class="text-center">
+      <a href="./add user.html" > <i class="fa-regular fa-pen-to-square" style="padding-right: 7px;"></i></a>  
+
+      <i class="fa-regular fa-circle-xmark" ></i>
+    </td>
+    </tr>
+    <tr>
+      <td><div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        </div></td>   
+    <td><img src="https://th.bing.com/th/id/R.7abc80cf0a5e10bcaae3bf5259b17718?rik=CDFB%2fOXwlA9HMQ&riu=http%3a%2f%2fwww.hairstyleslife.com%2fwp-content%2fuploads%2f2016%2f10%2fbobs-hairstyles-for-women-2.jpg&ehk=Q%2bic9wMX6HnW0zDomLERF7ByicNwT013HEXQ%2fQf0d9c%3d&risl=&pid=ImgRaw&r=0" width="45px" height="50px"/>Murroy A.Sammons</td>
+    <td class="text-center">Murroy45</td>
+    <td class="text-center">+125676677788</td>
+    <td class="text-center">Murroy@gmail.com</td>
+    
+    <td class="text-center"> <i class="fa-solid fa-toggle-on"></i></td>
+    <td class="text-center">
+      <a href="./add user.html" > <i class="fa-regular fa-pen-to-square" style="padding-right: 7px;"></i></a>  
+
+      <i class="fa-regular fa-circle-xmark" ></i>
+    </td>
+    </tr>
+    <tr>
+      <td><div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        </div></td>
+    <td><img src="https://ca-times.brightspotcdn.com/dims4/default/2747bab/2147483647/strip/true/crop/365x525+0+0/resize/840x1208!/quality/90/?url=https%3A%2F%2Fca-times.brightspotcdn.com%2F1b%2F2c%2F785949317c6b43b68b3757d18190%2Fla-la-he-five-311-jpg-20130718" width="45px" height="50px"/>Michelle Even</td>
+    <td class="text-center">Michell40</td>
+   
+    <td class="text-center">+125676677788</td>
+    <td class="text-center">Michell@gmail.com</td>
+    
+ <td class="text-center"> <i class="fa-solid fa-toggle-on"></i></td>
+    <td class="text-center">
+      <a href="./add user.html" > <i class="fa-regular fa-pen-to-square" style="padding-right: 7px;"></i></a>  
+
+      <i class="fa-regular fa-circle-xmark" ></i>
+    </td>
+    </tr>
+    <tr>
+      <td><div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        </div></td>
+    <td><img src="https://th.bing.com/th/id/OIP.AYXrYCrUU_WyYcceR0r8SQHaHa?rs=1&pid=ImgDetMain" width="45px" height="50px"/>Danold B.Martin</td>
+    <td class="text-center">Danold87</td>
+    <td class="text-center">+125676677788</td>
+    <td class="text-center">Danold@gmail.com</td>
+    
+   <td class="text-center"> <i class="fa-solid fa-toggle-on"></i></td>
+    <td class="text-center">
+      <a href="./add user.html" > <i class="fa-regular fa-pen-to-square" style="padding-right: 7px;"></i></a>  
+
+      <i class="fa-regular fa-circle-xmark" ></i>
+    </td>
+</tr>
+</table>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+
+   
+   
+   
+   
+   
+    

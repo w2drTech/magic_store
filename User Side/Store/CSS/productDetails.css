@@ -1,0 +1,78 @@
+@import url('https //fonts.googleapis.com/css family=poppins');
+
+*{
+  font-family: 'Poppins'
+}
+
+
+
+.formrightalign{
+  
+  margin-top: 47px;
+}
+
+.sizeSelect{
+  width: 50px;
+  
+  color: blue;
+}
+.productData{
+  margin-left: -40px;
+  
+}
+.deliveryData{
+  margin-left: 40px;
+}
+
+
+
+.imagesize{
+  width: 92px;
+}
+
+.cartBtn1{
+  color: aliceblue; 
+  background-color: #0b6970; 
+  border-color: #0b6970; 
+  border-radius: 20px;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-width: 1px;
+  margin-right: 20px;
+}
+.buyBtn1{
+  color: #0b6970; 
+  background-color: #ffffff; 
+  border-color: #0b6970; 
+  border-radius: 20px;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-width: 1px;
+}
+
+*{
+  font-family: 'Poppins';
+  font-size: small;
+}
+
+
+
+/*  wishlist */
+.wishlist  {
+  font-size: 20px;
+  cursor: pointer;
+  user-select: none;
+  color: #0b6970;
+ 
+  margin-right: 5px;
+  margin-top: -37px;
+}
+
+.wishlist:hover {
+  color: rgb(214, 7, 7);
+}
+/*wishlist*/

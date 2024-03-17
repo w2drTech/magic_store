@@ -1,0 +1,98 @@
+@import url('https //fonts.googleapis.com/css family=poppins');
+
+*{
+  font-family: 'Poppins';
+}
+
+
+.footer-area{
+  padding: 40px 0px;
+  background-color: #151616;
+  color: #fffdfd;
+}
+
+
+.footer-heading1{
+  font-size: 16px;
+}
+
+
+
+.footer-area .footer-heading{
+  font-size: 16px;
+  color: #ffffff;
+}
+.footer-area .footer-underline{
+  height: 1px;
+  width: 70px;
+  background-color: #383737;
+  margin: 10px 0px;
+}
+.copyright-area{
+  margin-top: 12px;
+  padding: 14px 0px;
+  background-color: #262626;
+}
+.copyright-area p{
+  margin-bottom: 0px;
+  color: #383737;
+}
+.copyright-area .social-media{
+  text-align: end;
+}
+.copyright-area .social-media a{
+  margin: 0px 10px;
+  color: #806464;
+  width: 20px;
+}
+
+
+
+.hover-foot {
+  text-decoration: none;
+  color: #4aa5ac;
+  transition: color 0.3s ease; /* adds smooth transition effect */
+  }
+  
+  .hover-foot:hover {
+    color: #4db4ce;
+    font-size: 14px;
+  }
+  .socialIcons{
+    margin-bottom: -25px;
+    margin-top: 10px;
+    text-decoration: none;
+    
+
+  }
+  .fbIcon:hover{
+    font-size: 17px;
+    
+  }
+  .twitIcon:hover{
+    font-size: 17px;
+  }
+
+  .pintIcon:hover{
+    font-size: 17px;
+  }
+  .intIcon:hover{
+    font-size: 17px;
+  }
+  .fbIcon{
+    color: aliceblue;
+  }
+  .pintIcon{
+    color: aliceblue;
+  }
+
+  .twitIcon{
+padding-left: 10px;
+padding-right: 10px;color: aliceblue;
+  }
+  .intIcon{
+padding-left: 10px;color: aliceblue;
+  }
+  .Storeinfo{
+color: rgb(94, 154, 179);
+  }

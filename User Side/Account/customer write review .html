@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Write Review</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/star.css">
+    
+    
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <!-- Box Icons for stars -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body style=" font-family: 'Poppins'";>
+
+    <nav class="container-fluid p-3 bg-body-secondary ">
+        <a href="../Store/Home.html"><img style="margin-bottom: -50px;width: 200px;" src="./Images/Main logo.png"> </a> 
+
+        <p class="text-end" style="margin-top: -20px; margin-left: 1240px; "><a href="../Help/help main.html" style="color: black; text-decoration: none;">Magice Help</a></p>
+        <div class="">
+        <img src="./Images/userImage.jpg" class="rounded float-end"  width="25px" height="25.47px" radius="50px" >
+        </div>
+        <p class="text-md-end">Hi, Anne Peterson</p>
+      
+      </div>
+  </nav>
+  
+    <div class="container p-4 ">
+        <h4>Write Review</h4>
+        <img src="./Images/Men Shoe 1.png" width="180px">
+        <h6 style="margin-left: 200px; margin-top: -120px;">Sneakers - Men Brand Breathable Spring Summer Casual Canvas Shoes</h6>
+        <h6 style="margin-left: 200px; margin-top: 1px;">Brand - Shoein</h6>
+        <h6 style="margin-left: 200px; margin-top: 3px;">Color: Grey</h6>
+
+
+        <br/><br/>
+        <h6 style="margin-top: 20px; font-weight: 600;">Select Product Rating</h6>
+
+        <div class="rate" style="margin-left:90px;">
+       
+            <div class="stars">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+            </div>
+
+
+        </div>
+
+
+
+        <br/><br/><br/>
+
+        <div class="col-md-6">
+            <div class="rate1" style="margin-left:-15px;">
+        
+                <div class="rates">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+            </div>
+            <br/><br/>
+            <p style="font-weight: 100; ">Seller rating</p>
+
+            <div class="rate2" style="margin-left:450px; margin-top: -75px;">
+                <!-- <input type="radio" id="star5" name="rae" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="ate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rte" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rte" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rte" value="1" />
+                <label for="star1" title="text">1 star</label> -->
+                <div class="ratings">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+            </div>
+            <br/><br/>
+            <h6 style="margin-left:460px; margin-top: -76px;width: 200px; font-weight: 100;" >Delivery rating</h6>
+        </div>
+        <br/><br/>
+        <h6 style="font-weight: 600;">Add video or Photo</h6>
+        <br/>
+
+   <!-- drag and drop immgges -->
+   <div class="uploadOuter">
+    <label for="uploadFile" class="btn2">Upload Image</label>
+  
+  <span class="dragBox" >
+    Drag and Drop image here
+  <input type="file" onChange="dragNdrop(event)"  ondragover="drag()" ondrop="drop()" id="uploadFile"  />
+  </span>
+  </div>
+
+        <br/><br/>
+        <h6 style="font-weight: 600;">Add Written Review</h6>
+
+        <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="How is the quality"></textarea>
+        </div>
+
+        <button type="button" class="submitBtn1"  style="border-radius: 20px;" >Submit Review</button>  
+        <button type="button" class="cancelBtn1"  style="border-radius: 20px;" >Cancel</button>
+</body>
+<!-- js -->
+<script src="./Script/star2.js" defer></script>
+
+</html>

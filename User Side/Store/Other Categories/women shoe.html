@@ -1,0 +1,783 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <title>Women shoe</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <!-- font font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./CSS/allCat.css">
+ 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../CSS/main nav.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+      
+    <script src="./Script/wishScript.js" defer></script>
+
+  </head>
+
+
+  
+  <body style="font-family: poppins;">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <div class="main-navbar shadow-sm sticky-top bg-white">
+    <div class="top-navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 my-auto d-none d-sm-none d-md-block d-lg-block z-3">
+                    <!-- <h5 class="brand-name">Funda Ecom</h5> -->
+                    <a href="../Home.html"><img src="../Images/Main logo.png" alt=""  class="img-fluid logoStore"></a> 
+                </div>
+                <div class="col-md-5 my-auto" style="padding-left: 100px;" >
+                    <form role="search">
+                        <div class="input-group">
+
+
+                            <input type="search" placeholder="Search your product" class="form-control" style="box-shadow: none; border-color: #0b6970;"/>
+                            <button class="btn" type="submit" style="border-color: #0b6970;">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </form>
+                    
+                </div>
+                <div class="col-md-5 my-auto" >
+                 <div class="help" style="float: inline-end;">
+                   <ul class="nav">
+                   <li class="nav-item" style="margin-top: -30px; ">
+                     <a class="nav-link" href="../../Help/help main.html">
+                          Magice Help
+                     </a></li>
+                     </ul>
+                 </div>
+                    <ul class="nav" style="float: inline-end;">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="../Cart.html">
+                                <i class="fa fa-shopping-cart"></i> Cart
+                            </a>
+                        </li>
+                        
+
+
+                        <li class="nav-item" onclick="toggleMenu()"><p class="nav-link " style="font-size: 12px;" >Hi, Anne Peterson
+                         <img src="../Images/userImage.jpg" alt="" width="20px" height="20px">
+                          
+                            <div class="sub-menu-wrap" id="subMenu">
+                             <div class="sub-menu">
+                                 <div class="user-info">
+                                     <img src="../Images/userImage.jpg" alt="">
+                                     <h5 style="margin-top: 20px;"> Anne Peterson</h5>
+                                 </div>
+                                 <hr>
+                                 <a href="../../Account/User _Dash.html" class="sub-link hoverItems">
+                                   <i class='bx bx-user-circle'></i>
+                                     <p>Manage Account</p>
+                                     <span>></span>
+                                 </a>
+                                 <a href="../../Account/Wishlist.html" class="sub-link hoverItems">
+                                     <i class='bx bx-smile'></i>
+                                     <p>WishList</p>
+                                     <span>></span>
+                                 </a>
+                               
+                                 <a href="../../Account/OrderHistory.html" class="sub-link hoverItems">
+                                     <i class='bx bx-package'></i>
+                                     <p>Order History</p>
+                                     <span>></span>
+                                 </a>
+                                 <a href="../../Account/Account_Setting.html" class="sub-link hoverItems">
+                                     <i class='bx bx-cog'></i>
+                                     <p>Settings</p>
+                                     <span>></span>
+                                 </a>
+                                 <a href="../../Store/Home page login.html" class="sub-link hoverItems">
+                                     <i class='bx bx-log-out'></i>
+                                     <p>Log Out</p>
+                                     <span>></span>
+                                 </a>
+              
+                             </div>
+</div>
+                           </p>
+
+
+                        </li>
+                        <li class="nav-item" onclick="openForm()">
+                          <a class="nav-link" href="#">
+                            <i class='bx bx-world' style="font-size: 16px;"></i>
+                          </a>
+                      </li>
+                    </ul>
+                </div>
+
+
+                
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand d-block d-sm-block d-md-none d-lg-none" href="#">
+                Funda Eco
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse belowLinkIcons " id="navbarSupportedContent" >
+             
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mainMenu">
+                  <li class="nav-item ">
+                    <a class="nav-link hoverItems" href="#">Dress</a>
+
+                    <ul class="subMenu">
+                      <li><a href="#" class="hoverItems">Women</a>
+                     <!-- ----------------- -->
+                       <ul class="SuperSubMenu">
+                        <li><a href="../Other Categories/women T-shirt.html" class="hoverItems">T shirt</a></li>
+                        <li><a href="../Other Categories/women trouser.html" class="hoverItems">Trouser</a></li>
+                        <li><a href="../Other Categories/frocks.html" class="hoverItems">Frock</a></li>
+                         <li><a href="../Other Categories/saree.html" class="hoverItems">Sharee</a></li>
+                       </ul>
+              <!-- --------- -->
+                     </li>
+
+                    <li><a href="#" class="hoverItems">Men</a>
+
+                       <ul class="SuperSubMenu">
+                        <li><a href="../Other Categories/men tshirt.html" class="hoverItems">T shirt</a></li>
+                        <li><a href="../Other Categories/men trouser.html" class="hoverItems">Trouser</a></li>
+                        <li><a href="../Other Categories/men shirt.html" class="hoverItems">Shirt</a></li>
+                        
+                        </ul>
+   
+                     </li>
+                      
+                     </ul>
+
+
+                    
+                </li>
+                    <li class="nav-item ">
+                        <a class="nav-link hoverItems" href="#">Watch</a>
+
+                        <ul class="subMenu">
+                         <li><a href="../Other Categories/women watch.html" class="hoverItems">Women</a></li>
+                         <li><a href="../Other Categories/men watch.html" class="hoverItems">Men</a></li>
+                         
+                        </ul>
+
+
+
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hoverItems" href="#">Bag</a>
+                        <ul class="subMenu">
+                         <li><a href="../Other Categories/women bag.html" class="hoverItems">Women</a></li>
+                         <li><a href="../Other Categories/men bag.html" class="hoverItems">Men</a></li>
+                         
+                        </ul>
+
+
+
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hoverItems" href="#">Beauty</a>
+                        <ul class="subMenu">
+                         <li><a href="../Other Categories/fragrance.html" class="hoverItems">Women</a>
+                          <ul class="SuperSubMenu">
+                            <li ><a href="../Other Categories/beauty makeup.html" class="hoverItems">Beauty Makeup</a></li>
+                            <li><a href="../Other Categories/cream.html" class="hoverItems">Creams</a></li>
+                            <li><a href="../Other Categories/fragrance.html" class="hoverItems">Fragrance</a></li>
+                            
+                            </ul>
+                        </li>
+              
+                         
+                        </ul>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hoverItems" href="#">Footware</a>
+                        <ul class="subMenu">
+                         <li><a href="../Other Categories/women shoe.html" class="hoverItems">Women</a></li>
+                         <li><a href=".././Men footware.html" class="hoverItems">Men</a></li>
+                         
+                        </ul>
+
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hoverItems" href="#">Gift</a>
+                        <ul class="subMenu">
+                         <li><a href="../Other Categories/Women gift.html" class="hoverItems">Women</a></li>
+                         <!-- <li><a href="#">Men</a></li> -->
+                         
+                        </ul>
+
+                    </li>
+                    <li class="nav-item">
+                      <!-- <button style="background-color: #0b6970; color: aliceblue;"></button> -->
+                        <a class="nav-link hoverItems" href="../Other Categories/offers.html">Offers</a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+ 
+    
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+      <p style="float: inline-start; padding-top: 33px; margin-left: 1073px;">Sort</p>
+   
+      <select class="form-select" aria-label="Default select example" style="box-shadow: none; border-color: #0b6970;margin-right: 18px;">
+        <option selected>Most Relevant</option>
+        <option value="1">Most Popular</option>
+        <option value="2">Price - Low to High</option>
+        <option value="3">Price - High to Low</option>
+      </select>
+
+    </div>
+   
+  </div>
+  <div class="row " style="margin-top: 20px; padding-left: 10px;">
+  
+
+
+
+   
+   
+ 
+           
+    <div class="wrapper">
+      <input type="checkbox" id="check" checked/>
+      <label for="check">New</label>
+    </div>
+
+ 
+ <select class="form-select" aria-label="Default select example" style="box-shadow: none; border-color: #0b6970;">
+    
+
+              <option selected>Men Fashion</option>
+
+              <option value="1">Shirt</option> 
+              <option value="1">Trouser</option> 
+              <option value="1">T-Shirt</option> 
+              <option value="2">Watches</option>
+              <option value="3">Bag</option>
+              <option value="3">Shoe</option>
+          
+            </select>
+
+            <select class="form-select" aria-label="Default select example" style="box-shadow: none; border-color: #0b6970;">
+    
+
+              <option selected>Women Fashion</option>
+              <option value="1">Frock</option> 
+              <option value="1">Sharee</option> 
+              <option value="1">Trouser</option> 
+              <option value="1">T-Shirt</option> 
+              <option value="2">Watches</option>
+              <option value="3">Bag</option>
+              <option value="3">Shoe</option>
+              <option value="3">Beauty</option>
+              <option value="3">Gifts Items</option>
+            </select>
+         
+
+            <select class="form-select" aria-label="Default select example" style="box-shadow: none; border-color: #0b6970;">
+              <option selected>Size</option>
+              <option value="1">36</option>
+              <option value="2">37</option>
+              <option value="3">38</option>
+              <option value="3">39</option>
+              <option value="3">40</option>
+            </select>
+
+
+            <select class="form-select" aria-label="Default select example" style="box-shadow: none; border-color: #0b6970;">
+              <option selected>Brand</option>
+              <option value="1">ShoeWay</option>
+              <option value="2">ShoeIn</option>
+              <option value="3">LeeShoe</option>
+              <option value="3">EOShoe</option>
+      
+            </select>
+          
+            <select class="form-select" aria-label="Default select example" style="box-shadow: none; border-color: #0b6970;">
+              <option selected>Color</option>
+              <option value="1">Red</option>
+              <option value="2">Brown</option>
+              <option value="3">Grey</option>
+              <option value="3">Green</option>
+      
+            </select>
+         
+            <select class="form-select" aria-label="Default select example" style="box-shadow: none; border-color: #0b6970;">
+              <option selected>Price</option>
+              <option value="1">$2- $4</option>
+              <option value="2">$5 - $8</option>
+              <option value="3">$8 - $13</option>
+              <option value="3">Above $14</option>
+      
+            </select>
+            
+</div>
+
+
+
+
+
+  <div class="row m-3">
+    
+    <div class="col-3 p-1">
+      <img src="../Images/Fashion/shoe women/11.jpg" class="img-fluid" alt="" width="314px" style="height: 314px;">
+
+      
+      <p class="kkkkkkkkk">LANCROP Nurse Shoes Womens Slip on Walking Sneakers Comfortable Lightweight Workout Shoes</p>
+      <p class="priceLocate">$15</p>
+      <div class="starlocate">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-half" viewBox="0 0 16 16">
+        <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+      </svg>
+    </div>
+
+    
+    <p class="gotobuyalign zoom-in-out-box"> <a class="gotobuycolor " href="../../lithara/product details/product detail.html" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-circle-fill" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+      Go to Buy </a>  </p>
+    </p>
+
+    <!-- add wish -->
+    <i onclick="myWishlist(this)" class="fa-regular fa-heart wishlist"></i>
+<!--  add wish list buttton to this ... mathide for get data from it- find that   -->
+    </div>
+
+
+
+
+    <div class="col-3 p-1">
+      <img src="../Images/Fashion/shoe women/22.jpg" class="img-fluid" alt="" width="314px" style="height: 314px;">
+
+      <p class="text-justify">STQ Slip On Sneakers for Women Lightweight Walking Shoes Comfortable Breathable Mesh
+      </p>
+      <p class="priceLocate">$15</p>
+      <div class="starlocate">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-half" viewBox="0 0 16 16">
+        <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+      </svg>
+    </div>
+
+    
+    <p class="gotobuyalign zoom-in-out-box"> <a class="gotobuycolor " href="#" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-circle-fill" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+      Go to Buy </a> </p>
+
+      <!-- wishlist -->
+      <i onclick="myWishlist(this)" class="fa-regular fa-heart wishlist"></i>
+    </div>
+
+
+
+    <div class="col-3 p-1">
+      <img src="../Images/Fashion/shoe women/33.jpg" class="img-fluid" alt="" width="314px" style="height: 314px;">
+
+      
+      <p class="text-justify">STQ Walking Shoes for Women Arch Support Comfort Lightweight Slip on Sneakers with Memory Foam
+      </p>
+      <p class="priceLocate">$15</p>
+      <div class="starlocate">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-half" viewBox="0 0 16 16">
+        <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+      </svg>
+    </div>
+
+    
+    <p class="gotobuyalign zoom-in-out-box"> <a class="gotobuycolor " href="#" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-circle-fill" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+      Go to Buy </a>  </p>
+ <!-- wishlist -->
+ <i onclick="myWishlist(this)" class="fa-regular fa-heart wishlist"></i>
+    </div>
+
+
+    <div class="col-3 p-1">
+      <img src="../Images/Fashion/shoe women/44.jpg" class="img-fluid" alt="" width="314px" style="height: 314px;">
+
+     
+      <p class="text-justify">STQ Walking Shoes for Women Slip On Shoes with Arch Support Lightweight Air Cushioned Sock Sneakers
+      </p>
+      <p class="priceLocate">$15</p>
+      <div class="starlocate">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-half" viewBox="0 0 16 16">
+        <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+      </svg>
+    </div>
+
+    
+    <p class="gotobuyalign zoom-in-out-box"> <a class="gotobuycolor " href="#" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-circle-fill" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+      Go to Buy </a>  </p>
+  <!-- wishlist -->
+  <i onclick="myWishlist(this)" class="fa-regular fa-heart wishlist"></i>
+
+    </div>
+  </div>
+
+
+
+  <div class="row m-3">
+    
+    <div class="col-3 p-1">
+      <img src="../Images/Fashion/shoe women/55.jpg" class="img-fluid" alt="" width="314px" style="height: 314px;">
+
+      
+      <p class="text-justify">DAkk Womens Walking Shoes - Slip On Tennis Running Shoes Memory Foam Lightweight Work Sneakers 
+      </p>
+      <p class="priceLocate">$15</p>
+      <div class="starlocate">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-half" viewBox="0 0 16 16">
+        <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+      </svg>
+    </div>
+
+    
+    <p class="gotobuyalign zoom-in-out-box"> <a class="gotobuycolor " href="#" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-circle-fill" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+      Go to Buy </a>  </p>
+<!-- wishlist -->
+<i onclick="myWishlist(this)" class="fa-regular fa-heart wishlist"></i>
+<!--  add wish list buttton to this ... mathide for get data from it- find that   -->
+    </div>
+    <div class="col-3 p-1">
+      <img src="../Images/Fashion/shoe women/66.jpg" class="img-fluid" alt="" width="314px" style="height: 314px;">
+
+      
+      <p class="text-justify">SHOBOO Women's Patent Leather Pumps Stiletto Heels Pointed Toe Slip on Wedding Dress Shoes  </p>
+      <p class="priceLocate">$15</p>
+      <div class="starlocate">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-half" viewBox="0 0 16 16">
+        <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+      </svg>
+    </div>
+
+    
+    <p class="gotobuyalign zoom-in-out-box"> <a class="gotobuycolor " href="#" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-circle-fill" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+      Go to Buy </a>  </p>
+<!-- wishlist -->
+<i onclick="myWishlist(this)" class="fa-regular fa-heart wishlist"></i>
+<!--  add wish list buttton to this ... mathide for get data from it- find that   -->
+    </div>
+
+
+
+    <div class="col-3 p-1">
+      <img src="../Images/Fashion/shoe women/77.jpg" class="img-fluid" alt="" width="314px" style="height: 314px;">
+
+      
+      <p class="text-justify">DYODEKS Women Low Block Heels Slip On Cap Toe Pumps Women Low Chunky Heels Round Toe Pumps Shoes 
+      </p>
+      <p class="priceLocate">$15</p>
+      <div class="starlocate">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-half" viewBox="0 0 16 16">
+        <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+      </svg>
+    </div>
+
+    
+    <p class="gotobuyalign zoom-in-out-box"> <a class="gotobuycolor " href="#" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-circle-fill" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+      Go to Buy </a>  </p>
+<!-- wishlist -->
+<i onclick="myWishlist(this)" class="fa-regular fa-heart wishlist"></i>
+<!--  add wish list buttton to this ... mathide for get data from it- find that   -->
+    </div>
+
+
+
+
+    <div class="col-3 p-1">
+      <img src="../Images/Fashion/shoe women/88.jpg" class="img-fluid" alt="" width="314px" style="height: 314px;">
+
+      
+      <p class="text-justify">Jessica Simpson Women's Prizma Pointed Chunky Heels Round Toe Pumps Toe D'Orsay Heels Pumps
+      </p>
+      <p class="priceLocate">$15</p>
+      <div class="starlocate">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-fill" viewBox="0 0 16 16">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-star-half" viewBox="0 0 16 16">
+        <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+      </svg>
+    </div>
+
+    
+    <p class="gotobuyalign zoom-in-out-box"> <a class="gotobuycolor " href="#" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#0b6970" class="bi bi-circle-fill" viewBox="0 0 16 16">
+      <circle cx="8" cy="8" r="8"/>
+    </svg>
+      Go to Buy </a>  </p>
+<!-- wishlist -->
+<i onclick="myWishlist(this)" class="fa-regular fa-heart wishlist"></i>
+<!--  add wish list buttton to this ... mathide for get data from it- find that   -->
+    </div>
+
+
+
+  </div>
+
+  <div>
+    <div class="footer-area" >
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                  <h4 class="footer-heading1">Magice Store</h4>
+                  <div class="footer-underline"></div>
+                  <p class="Storeinfo">We give sanctuary of style, offering curated collections, personalized service, and a vibrant atmosphere for fashion enthusiasts.</p>
+                  <p class="Storeinfo">+9455 6638 318   or magicecustomercare@gmail.com</p>
+                  
+                  <div class="socialIcons">
+               <a href="https://web.facebook.com/home.php" class="">  <i class="fa-brands fa-facebook-f fbIcon"> </i></a> 
+               <a href="https://twitter.com/">  <i class="fa-brands fa-twitter twitIcon"></i></a> 
+               <a href="https://www.pinterest.com/">  <i class="fa-brands fa-pinterest-p pintIcon"></i></a> 
+               <a href="https://www.instagram.com/">  <i class="fa-brands fa-instagram intIcon"></i>   </div></a> 
+              </div>
+              <div class="col-md-2" >
+                  <h4 class="footer-heading" >My Account</h4>
+                  <div class="footer-underline"></div>
+                  <div class="mb-2" ><a href="../../Account/User _Dash.html" class="hover-foot">Manage Account</a></div>
+                  <div class="mb-2"><a href="../../Account/OrderHistory.html" class="hover-foot">Order History</a></div>
+  
+                  <div class="mb-2"><a href="../Cart.html" class="hover-foot">Shopping Cart</a></div>
+                  <div class="mb-2"><a href="../../Account/Wishlist.html" class="hover-foot">My Wishlist</a></div>
+                  <!-- <a href="#" class="hover-effect">Hover Me</a> -->
+              </div>
+              <div class="col-md-2">
+                  <h4 class="footer-heading">Magice Store</h4>
+                  <div class="footer-underline"></div>
+                  <div class="mb-2"><a href="../../Help/Contact Us.html" class="hover-foot">Contact us</a></div>
+                  <div class="mb-2"><a href="../../Help/help main.html" class="hover-foot">Help</a></div>
+                  <div class="mb-2"><a href="../../Other/term of use.html" class="hover-foot">Terms of use</a></div>
+                  <div class="mb-2"><a href="../../Other/Privacy&policy.html" class="hover-foot">Privacy Policy</a></div>
+                 
+              </div>
+  
+              <div class="col-md-2">
+                  <h4 class="footer-heading"> Store</h4>
+                  <div class="footer-underline"></div>
+                  <div class="mb-2"><a href="../../Help/help store.html" class="hover-foot">About</a></div>
+                  <div class="mb-2"><a href="../Home.html" class="hover-foot">Shop</a></div>
+                  <div class="mb-2"><a href="../../Account/Order_Details.html" class="hover-foot">Track Order</a></div>
+                 
+               </div>
+  
+               <div class="col-md-2">
+                 <h4 class="footer-heading" > Categories</h4>
+                  <div class="footer-underline"></div> 
+                  
+                  <div class="row">
+                      <div class="col-6">
+                  <div class="mb-2"><a href="../Other Categories/men shirt.html" class="hover-foot">Dress</a></div>
+                  <div class="mb-2"><a href="../Other Categories/men watch.html" class="hover-foot">Watch</a></div>
+                  <div class="mb-2"><a href="../Other Categories/men bag.html" class="hover-foot">Bag</a></div>
+                  <div class="mb-2"><a href="../Other Categories/fragrance.html" class="hover-foot">Beauty</a></div>
+                      </div>
+                      <div class="col-6">
+                  <div class="mb-2"><a href="./Men footware.html" class="hover-foot">Footware</a></div>
+                  <div class="mb-2"><a href="../Other Categories/Women gift.html" class="hover-foot">Gift</a></div>
+                  <div class="mb-2"><a href="../Other Categories/offers.html" class="hover-foot">Offers</a></div>
+                  </div>
+                  </div>
+               </div>
+              
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <p class="" style="color: rgb(175, 177, 179);">  Magice Store eCommerce (LK) &copy; 2024 - All Rights Reserved </p>
+                    
+  
+                </div>
+                <div class="col-md-4" >
+                    <img style="float: inline-end;" src="../Images/MicrosoftTeams-image.png" width="100px" height="30px"/>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <div class="form-popup " id="myForm" style="font-size: 12px; z-index: +15;">
+      <form action="/action_page.php" class="form-container"> 
+         <button type="button" onclick="closeForm()" style="float: inline-end; border: none; background-color: rgb(255, 255, 255);"><i class="fa-solid fa-xmark" style="font-size: medium;"></i></button>
+    
+    
+        <label for="" class="form-label">Change Language</label>
+     
+    <select id="lang" name="lang" class="form-select" style="font-size: 12px; box-shadow: none; margin-top: -5px; margin-bottom: 20px;">
+      <option value="english">English</option>
+    </select>
+    
+     
+    
+        <label for="" class="form-label" style="margin-top: 0px;">Change Currency</label>
+     
+    <select id="lang" name="lang" class="form-select" style="font-size: 12px; box-shadow: none; margin-top: -5px;">
+      <option value="usDollar">US Dollar</option>
+    </select>
+    
+      
+      </form>
+    </div>
+  <script>
+        
+
+    function toggleMenu() {
+      let subMenu = document.getElementById("subMenu");
+        subMenu.classList.toggle("open-menu");
+    }
+    function openForm() {
+  
+  document.getElementById("myForm").style.display = "block";
+  }
+  
+  function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+  }
+  </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
